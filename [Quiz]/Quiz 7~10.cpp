@@ -3,7 +3,7 @@
 //문제 7번 
 //int main(){
 //	char a[100] = {0,},b[100],c = 0;
-//	fgets(a,100,stdin);
+//	gets(a);
 //	for(int i = 0; i < 100; i++)
 //	{
 //		if(a[i]>=65 && a[i]<=90) b[c++] = a[i] + 32; //대문자 -> 소문자 
@@ -17,7 +17,7 @@
 //int main(){
 //	int cnt = 0;
 //	char a[30] = {0,};
-//	scanf("%s",&a);
+//	scanf("%s",&a);	
 //	for(int i = 0; i < 30; i++)
 //	{
 //		if(a[i] == 40) cnt++;
@@ -42,7 +42,7 @@
 //	return 0;
 //}
 
-//문제 10번
+//문제 10번 
 int digit_sum(int x){
 	int sum = x/1000000
 			+(x%1000000)/100000
@@ -66,7 +66,7 @@ int main(){
 			max_sum = temp;
 			max = a[i];
 		}
-		if(temp==max_sum)
+		else if(temp==max_sum)
 			if(a[i]>max) max = a[i];
 	}
 	printf("%d",max);
