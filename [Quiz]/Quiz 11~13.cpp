@@ -35,15 +35,15 @@
 //	}
 //	res+=((a-sum)*cnt);
 //
-////	for(int i = 1; i<=a; i++)
-////	{
-////		sum = i;
-////		while(sum)
-////		{
-////			sum = sum/10;
-////			res++;
-////		}
-////	}
+//	for(int i = 1; i<=a; i++)
+//	{
+//		sum = i;
+//		while(sum)
+//		{
+//			sum = sum/10;
+//			res++;
+//		}
+//	}
 //	
 //	end = clock();
 //	cl = ((double)end - start) / 1000;
