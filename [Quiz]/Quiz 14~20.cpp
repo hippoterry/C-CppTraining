@@ -34,21 +34,21 @@
 //	return 0;
 //}
 
-//문제 15번 (not cleared)
+//문제 15번
 //int main(){
-//	int n, cnt = 1;
+//	int n,cnt = 1,j;
 //	scanf("%d",&n);
-//	for(int i = 3; i <= n; i += 2)
+//	for(int i = 3; i<n; i += 2)
 //	{
-//		for(int j = 2; j < i; j++)
-//			if(i%j==0) cnt--;
-//		cnt++;
+//		for(j = 2; j*j<=i; j++)	
+//			if(i%j==0) break;
+//		if(i%j!=0) cnt++;
 //	}
 //	printf("%d",cnt);
-//	return 0;	
+//	return 0;
 //}
 
-//문제 16번
+//문제 16번 
 //int main(){
 //	bool p = true;
 //	char a[100] = {0,}, b[100] = {0,}, A[52] = {0,}, B[52] = {0,};
@@ -88,8 +88,7 @@
 
 //문제 17번 
 //int main(){
-//	int p[10] = {0,};
-//	int n;
+//	int p[10] = {0,}, n;
 //	scanf("%d",&n);
 //	for(int i = 0; i < n; i++)
 //	{
@@ -185,4 +184,15 @@ int main(){
 	}
 	return 0;
 }
+
+
+
+
+
+
+
+
+
+
+
 
