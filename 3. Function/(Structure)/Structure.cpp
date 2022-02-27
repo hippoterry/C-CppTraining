@@ -1,15 +1,23 @@
 #include <stdio.h>
-#include <string.h>
 
-struct Student{char name[20]; int math,english; };
 
 int main(){
-	Student s1;
-	strcpy(s1.name,"Jhon");
-	s1.math=90;
-	s1.english=95;
-	printf("%s\n", s1.name);
-	printf("%d\n", s1.math);
-	printf("%d\n", s1.english);
+	
+	int a,b,c,d,max=2147000000;
+	scanf("%d %d %d",&a,&b,&c);
+	if (a>b) max=a;
+	else max=b;
+	if (max>c) max=max;
+	else c=max;
+	
+	d=a+b+c;
+	
+	 if (max<d-max) printf("yes");
+	 else printf("no");
+   
+	
+	
+	
+		
 	return 0;
 }
